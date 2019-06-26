@@ -1,5 +1,16 @@
 # Tictactoe
 
+Fase 1:
+
+    Paso 2:
+        Creación del Header y Board Component en el módulo game. Incluir una instancia de cada uno de ellos en el Game Component.
+
+        Inicialmente el Board Component estará vacío, y el Header Component renderizará un mensaje fijo con el turno del jugador.
+
+        Creación del Square Component que renderizará un botón que detectará cuando el usuario hace clic en él.
+
+        Añadiremos 9 componentes Square al Board Component.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
 ## Development server
