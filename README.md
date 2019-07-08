@@ -11,6 +11,15 @@ Fase 1:
 
         Añadiremos 9 componentes Square al Board Component.
 
+Fase 2:
+    Creación e implementación del Servicio StateService que contiene una interfaz con dos propiedades (turno y matriz de valores). Se implementan los métodos getter y setter correspodientes, un ḿetodo que actualiza la posición cliqueada y se crea un BehaviorState.
+
+    Se provider el servicio en el módulo Game.
+
+    Se inyecta el servicio en los componentes del juego: Header, Square y Board.
+
+    Se modifica la class del componente Square para que las celdas no sean clicables cuando ya lo han sido previamente.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
 ## Development server
