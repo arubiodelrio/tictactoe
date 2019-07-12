@@ -20,6 +20,21 @@ Fase 2:
 
     Se modifica la class del componente Square para que las celdas no sean clicables cuando ya lo han sido previamente.
 
+
+# Tictactoe con routes
+
+Se hará uso de routes con Angular para añadir tres rutas:
+1.- Página index con un mensaje de bienvenida.
+2.- Página de nueva partida.
+3.- Página de continuar partida.
+
+Pasos:
+1.- Crear indexComponent.
+2.- Configurar routes en AppModule.
+3.- Añadir barra de navegación al AppComponent
+4.- Modificar GameComponent para saber si tiene que empezar una nueva partida o continuar una ya iniciada antes. Para ello
+se usará el parámetro data.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
 ## Development server

@@ -3,8 +3,13 @@
   <h1>
     Bienvenidos a {{ title }}!
   </h1>
-  <app-game></app-game>  
+  <nav>
+    <a routerLink="/index" routerLinkActive="active">Home</a>
+    <a routerLink="/new" routerLinkActive="active">Nueva Partida</a>
+    <a routerLink="/continue" routerLinkActive="active">Continuar Partida</a>
+  </nav>
+  <router-outlet></router-outlet>
 </div>
 
 
-<router-outlet></router-outlet>
+
