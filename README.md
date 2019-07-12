@@ -35,6 +35,18 @@ Pasos:
 4.- Modificar GameComponent para saber si tiene que empezar una nueva partida o continuar una ya iniciada antes. Para ello
 se usará el parámetro data.
 
+
+# Tictactoe con conexión a backend
+Se hará uso de una conexión a un backend para cargar la partida desde un estado anterior en el que se dejó dicha partida.
+
+Pasos:
+1.- Importar en AppModule el HttpClientModule.
+2.- Crear un servicio HttpService para encapsular las conexiones al backend.Para obtener el fichero JSON con el estado de la partida se usará un servicio web api.myjson.com (https://api.myjson.com/bins/rbnwf).
+3.- Modificar el GameComponent para obtener los datos de la partida almacenados en el backend usando el httpservice.
+4.- Gestionar el estado de la solicitud, mostrando un mensaje de espera o un mensaje de error (en caso de que algo hay ido mal)
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
 ## Development server
